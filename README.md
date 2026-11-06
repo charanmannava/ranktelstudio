@@ -25,6 +25,10 @@ npm run preview
 
 The production build is written to `dist/`.
 
+## Deploy to Vercel
+
+The root `vercel.json` rewrites requests to the app entry point so React Router routes such as `/about`, `/team`, and `/vampai` continue to work when opened directly or refreshed.
+
 ## Pages
 
 - `/` — Studio homepage and app portfolio
